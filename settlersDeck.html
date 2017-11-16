@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Settlers Deck</title>
+    <script src="settlersDeck.js" type="text/javascript" charset="utf-8" async defer></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="settlersDeck.css">
+</head>
+<body>
+    <div class="container text-center">
+        <p> Reshuffle deck when there are 
+            <input type="number" value="8" min="0" max="35" id="reshuffle"> cards left
+            <button class="btn btn-default btn-primary" id="reshuffleSubmit">Submit</button>
+        </p>
+        <div id="num"></div>
+        <button class="btn btn-default btn-success" id="rollNum">Draw Number</button>
+
+        <p>Cards until reshuffle: <span id="count"></span></p>
+    </div>
+</body>
+</html>
